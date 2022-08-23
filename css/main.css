@@ -1,0 +1,127 @@
+html{
+    font-size: 16px;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #FFFFFF;
+    min-width: 320px;
+
+}
+image{
+    max-width: available;
+    max-height: available;
+}
+section{
+    padding: 50px 0;
+}
+a{
+    color:#111;
+}
+a:hover{
+    color: #555;
+}
+/*HEADER*/
+.navbar-expand-lg{
+    color: #111;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.navbar-expand-lg li a::after{
+    content:'';
+    display: block;
+    width: 100%;
+    background-color: #111;
+    height: 1px;
+    transition: all .3s;
+    transform: scale(0);
+}
+.navbar-expand-lg li a:hover::after{
+    transform: scale(1);
+}
+/*HEADER*/
+
+.spielbox h2{
+    margin-bottom:80px;
+    color:#FFFFFF;
+}
+.greetingtext{
+    color: darkslategray;
+    margin-right: 480px;
+    margin-left: 250px;
+    text-transform: uppercase;
+    background: snow;
+    font-style: italic;
+}
+.blue-button {
+    background: #25A6E1;
+    padding: 3px 5px;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 4px;
+    border: 1px solid #1A87B9
+}
+.red-button {
+    background: #CD5C5C;
+    padding: 3px 5px;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 4px;
+    border: 1px solid #CD5C5C
+}
+table {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    width: 50%;
+}
+
+caption {
+    text-align: left;
+    color: silver;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+th {
+    background: SteelBlue;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background: WhiteSmoke;
+}
+
+tbody tr td:nth-child(2) {
+    text-align: center;
+}
+
+tbody tr td:nth-child(3), tbody tr td:nth-child(4) {
+    text-align: center;
+    font-family: monospace;
+}
+
+tfoot {
+    background: SeaGreen;
+    color: white;
+    text-align: right;
+}
+
+tfoot tr th:last-child {
+    font-family: monospace;
+}
+
+td, th {
+    border: 1px solid gray;
+    width: 25%;
+    text-align: left;
+    padding: 5px 10px;
+}
