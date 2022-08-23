@@ -20,6 +20,10 @@ app.config(function($routeProvider) {
         .when('/job', {
                 templateUrl : 'job.html',
                 controller  : 'JobController'
+            })
+        .when('/organization', {
+                templateUrl : 'organization.html',
+                controller  : 'OrganizationController'
             });
 
 });
