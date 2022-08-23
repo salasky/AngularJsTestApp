@@ -1,7 +1,5 @@
 
-var app = angular.module("Job", []);
-//Controller Part
-app.controller("JobController", function($scope, $http) {
+function JobController ($scope, $http) {
     $scope.jobs = [];
     $scope.jobForm = {
         id : -1,
@@ -76,6 +74,6 @@ app.controller("JobController", function($scope, $http) {
         $scope.jobForm.id = -1;
         $scope.jobForm.name = "";};
 
-});
+};
 
 

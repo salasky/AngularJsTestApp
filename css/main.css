@@ -43,11 +43,22 @@ a:hover{
     transform: scale(1);
 }
 /*HEADER*/
-
-.spielbox h2{
-    margin-bottom:80px;
-    color:#FFFFFF;
+.spielboxhomeh1{
+    margin-top: 100px;
+    font-size: 5em;
 }
+
+.spielbox {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 50%;
+    background:SteelBlue;
+    margin: 30px 50px;
+    padding: 5px;
+    color: white;
+}
+
 .greetingtext{
     color: darkslategray;
     margin-right: 480px;
@@ -81,6 +92,7 @@ a:hover{
 table {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     width: 50%;
+    margin: 30px 50px;
 }
 
 caption {
